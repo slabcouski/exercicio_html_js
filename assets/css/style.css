@@ -32,7 +32,7 @@
 .card-left h3,
 .card-left p{
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
 }
 .card-left h3{
     color: #cFBCFF;
@@ -70,8 +70,11 @@
 .card-right form{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     padding-top: 40px;
+}
+.card-right form p{
+    text-align: center;
 }
 .card-right input{
     width: 170px;
@@ -86,6 +89,9 @@
 .card-right input[type=number]{
     -moz-appearance: textfield;
     appearance: textfield;
+}
+.card-right input[type=number]::placeholder{
+    font-weight: bold;
 }
 .card-right button{
     width: 170px;
